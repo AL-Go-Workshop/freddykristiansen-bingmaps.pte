@@ -4,6 +4,6 @@ permissionset 74119 "BingMaps"
     Assignable = true;
 
     Permissions =
-        tabledata 74120 = RIMD,
-        tabledata 74122 = RIMD;
+        tabledata "BingMaps Customer" = RIMD,
+        tabledata "BingMaps Settings" = RIMD;
 }
