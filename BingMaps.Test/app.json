@@ -30,16 +30,10 @@
       "version": "25.0.0.0"
     },
     {
-      "id": "165d73c1-39a4-4fb6-85a5-925edc1684fb",
+      "id": "31ecaf96-3dae-4e25-91cd-9b615f8bb124",
       "publisher": "Freddy Kristiansen",
       "name": "BingMaps.PTE",
-      "version": "25.0.0.0"
-    },
-    {
-      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
-      "publisher": "Microsoft",
-      "name": "Tests-TestLibraries",
-      "version": "25.0.0.0"
+      "version": "1.0.0.0"
     }
   ],
   "screenshots": [],
