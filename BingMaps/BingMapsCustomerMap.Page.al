@@ -15,7 +15,7 @@ page 74121 "BingMaps CustomerMap"
                 Tooltip = 'Customer no.';
             }
 
-            usercontrol(Map; "Microsoft.Dynamics.Nav.Client.WebPageViewer")
+            usercontrol(Map; "WebPageViewer")
             {
                 ApplicationArea = All;
 
