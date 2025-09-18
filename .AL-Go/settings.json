@@ -8,5 +8,7 @@
   "testFolders": [
     "BingMaps.Test"
   ],
+  "githubRunner": "windows-latest",
+  "doNotPublishApps": false,
   "RepoVersion": "1.0"
 }
