@@ -1,0 +1,50 @@
+name: Recording
+description: Test recording
+telemetryId: 13859aaa-8045-4f24-be83-ca7b3472831d
+start:
+  profile: null
+steps:
+  - type: navigate
+    target:
+      - page: Business Manager Role Center
+      - action: Customers
+    description: Navigate to <caption>Customers</caption>
+  - type: page-shown
+    source:
+      page: Customer List
+    modal: false
+    runtimeId: b8r
+    description: Page <caption>Customers</caption> was shown.
+  - type: invoke
+    target:
+      - page: Customer List
+        runtimeRef: b8r
+      - repeater: Control1
+    invokeType: Edit
+    description: Invoke row on <caption>Control1</caption>
+  - type: page-shown
+    source:
+      page: Customer Card
+    modal: false
+    runtimeId: bkv
+    description: Page <caption>Customer Card</caption> was shown.
+  - type: close-page
+    target:
+      - page: Customer Card
+        runtimeRef: bkv
+    description: Close page <caption>Customer Card</caption>
+  - type: page-closed
+    source:
+      page: Customer Card
+    runtimeId: bkv
+    description: Page <caption>Customer Card</caption> was closed.
+  - type: close-page
+    target:
+      - page: Customer List
+        runtimeRef: b8r
+    description: Close page <caption>Customers</caption>
+  - type: page-closed
+    source:
+      page: Customer List
+    runtimeId: b8r
+    description: Page <caption>Customers</caption> was closed.

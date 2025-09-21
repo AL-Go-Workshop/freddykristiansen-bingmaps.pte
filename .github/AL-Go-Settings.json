@@ -6,5 +6,6 @@
     "ContinuousDeployment": true,
     "MaxReleases": 0
   },
-  "templateSha": "8edc212cf392aa985d35e99ae22756762607f974"
+  "templateSha": "8edc212cf392aa985d35e99ae22756762607f974",
+  "pageScriptingTests": [ "Recordings" ]
 }
