@@ -1,5 +1,5 @@
 {
-  "id": "b1c6b0de-e874-44f6-99b3-24cb2e400f9f",
+  "id": "48b60359-5dc3-4439-be9a-581d0b526a90",
   "name": "BingMaps.PTE_Test",
   "publisher": "Freddy Kristiansen",
   "brief": "",
@@ -30,7 +30,7 @@
       "version": "25.0.0.0"
     },
     {
-      "id": "31ecaf96-3dae-4e25-91cd-9b615f8bb124",
+      "id": "15c981c1-59bb-47e5-b0d8-a54d72e4e690",
       "publisher": "Freddy Kristiansen",
       "name": "BingMaps.PTE",
       "version": "1.0.0.0"
